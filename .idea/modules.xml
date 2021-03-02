@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Completed Projects/2048/.idea/2048.iml" filepath="$PROJECT_DIR$/../../Completed Projects/2048/.idea/2048.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SSS - Super Simpl Sortr.iml" filepath="$PROJECT_DIR$/.idea/SSS - Super Simpl Sortr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Completed Projects/Sorting Algorithms Visualized/.idea/Sorting Algorithms Visualized.iml" filepath="$PROJECT_DIR$/../../Completed Projects/Sorting Algorithms Visualized/.idea/Sorting Algorithms Visualized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Completed Projects/Super Simpl Chatroom/.idea/Super Simpl Chatroom.iml" filepath="$PROJECT_DIR$/../../Completed Projects/Super Simpl Chatroom/.idea/Super Simpl Chatroom.iml" />
+    </modules>
+  </component>
+</project>

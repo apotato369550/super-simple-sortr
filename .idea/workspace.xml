@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e934f563-504e-45ae-b415-30cfdc57722b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nKbe3DzBRcsODGK6PvWbIPOKFk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pathfinding Algorithm Visualizer" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="algorithms.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="2048" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Program Files\SSS - Super Simpl Sortr\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="G:\My Programming Projects\Python\Projects In Progress\SSS - Super Simpl Sortr\Algorithims.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="SSS - Super Simpl Sortr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Program Files\SSS - Super Simpl Sortr\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.algorithms.py" />
+      <item itemvalue="Python.main" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e934f563-504e-45ae-b415-30cfdc57722b" name="Default Changelist" comment="" />
+      <created>1611141820763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611141820763</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="736" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611832623813">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="736" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1611832623813" />
+    <state x="1005" y="298" key="FileChooserDialogImpl" timestamp="1614424552439">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="1005" y="298" key="FileChooserDialogImpl/0.0.1920.1036@0.0.1920.1036" timestamp="1614424552439" />
+    <state width="1899" height="265" key="GridCell.Tab.0.bottom" timestamp="1614655169643">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1899" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1614655169643" />
+    <state width="1899" height="265" key="GridCell.Tab.0.center" timestamp="1614655169642">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1899" height="265" key="GridCell.Tab.0.center/0.0.1920.1036@0.0.1920.1036" timestamp="1614655169642" />
+    <state width="1899" height="265" key="GridCell.Tab.0.left" timestamp="1614655169642">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1899" height="265" key="GridCell.Tab.0.left/0.0.1920.1036@0.0.1920.1036" timestamp="1614655169642" />
+    <state width="1899" height="265" key="GridCell.Tab.0.right" timestamp="1614655169643">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1899" height="265" key="GridCell.Tab.0.right/0.0.1920.1036@0.0.1920.1036" timestamp="1614655169643" />
+    <state width="1899" height="343" key="GridCell.Tab.1.bottom" timestamp="1613823284949">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1899" height="343" key="GridCell.Tab.1.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1613823284949" />
+    <state width="1899" height="343" key="GridCell.Tab.1.center" timestamp="1613823284949">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1899" height="343" key="GridCell.Tab.1.center/0.0.1920.1036@0.0.1920.1036" timestamp="1613823284949" />
+    <state width="1899" height="343" key="GridCell.Tab.1.left" timestamp="1613823284949">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1899" height="343" key="GridCell.Tab.1.left/0.0.1920.1036@0.0.1920.1036" timestamp="1613823284949" />
+    <state width="1899" height="343" key="GridCell.Tab.1.right" timestamp="1613823284949">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1899" height="343" key="GridCell.Tab.1.right/0.0.1920.1036@0.0.1920.1036" timestamp="1613823284949" />
+    <state x="96" y="96" width="1728" height="844" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612147175569">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="96" y="96" width="1728" height="844" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1612147175568" />
+    <state x="1151" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1614655124236">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="1151" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1614655124236" />
+    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1612147133224">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1036@0.0.1920.1036" timestamp="1612147133224" />
+  </component>
+</project>
