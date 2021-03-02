@@ -25,12 +25,12 @@ class SelectionSort(Algorithms):
                 if data[minimum_index] > data[j]:
                     minimum_index = j
 
-            drawData(data, [ "red" if x == i or x == minimum_index else "white" for x in range(len(data))])
+            drawData(data, ["red" if x == i or x == minimum_index else "white" for x in range(len(data))])
             time.sleep(delay)
 
             data[i], data[minimum_index] = data[minimum_index], data[i]
 
-            drawData(data, [ "red" if x == i or x == minimum_index else "white" for x in range(len(data))])
+            drawData(data, ["red" if x == i or x == minimum_index else "white" for x in range(len(data))])
             time.sleep(delay)
         drawData(data, ["green" for x in range(len(data))])
 

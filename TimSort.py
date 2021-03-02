@@ -23,7 +23,7 @@ class TimSort(Algorithms):
 
         for start in range(0, n, minimum_run):
             end = min(start + minimum_run - 1, n - 1)
-            self.insertion_sort(data, start, end)
+            self.insertion_sort(data, start, end, drawData, delay)
 
         size = minimum_run
         while size < n:
@@ -31,12 +31,15 @@ class TimSort(Algorithms):
                 middle = min(n - 1, left + size - 1)
                 right = min((left + 2 * size - 1), (n - 1))
 
-                self.merge(data, left, middle, right)
+                self.merge(data, left, middle, right, drawData, delay)
 
             size = 2 * size
 
         print data
-        # this works
+        drawData(data, ["green" for x in range(len(data))])
+        time.sleep(delay)
+        # it stops at the end for some reason???
+        # test again later??
 
 
     def minimum_run(self, length):
@@ -46,15 +49,17 @@ class TimSort(Algorithms):
             length >>= 1
         return length + r
 
-    def insertion_sort(self, data, left, right):
+    def insertion_sort(self, data, left, right, drawData, delay):
         for i in range(left + 1, right + 1):
             for i in range(left + 1, right + 1):
                 j = i
                 while j > left and data[j] < data[j - 1]:
                     data[j], data[j - 1] = data[j - 1], data[j]
+                    drawData(data, ["red" if x == j or x == j - 1 else "white" for x in range(len(data))])
+                    time.sleep(delay)
                     j -= 1
 
-    def merge(self, data, left, middle, right):
+    def merge(self, data, left, middle, right, drawData, delay):
         length_1, length_2 = middle - left + 1, right - middle
         left, right = [], []
         for i in range(0, length_1):
@@ -67,19 +72,31 @@ class TimSort(Algorithms):
         while i < length_1 and j < length_2:
             if left[i] <= right[j]:
                 data[k] = left[i]
+                drawData(data, ["red" if x == k or x == i else "white" for x in range(len(data))])
+                time.sleep(delay)
                 i += 1
             else:
                 data[k] = right[j]
+                drawData(data, ["red" if x == k or x == j else "white" for x in range(len(data))])
+                time.sleep(delay)
                 j += 1
             k += 1
 
         while i < length_1:
             data[k] = left[i]
+
+            drawData(data, ["red" if x == k or x == i else "white" for x in range(len(data))])
+            time.sleep(delay)
+
             k += 1
             i += 1
 
         while j < length_2:
             data[k] = right[j]
+
+            drawData(data, ["red" if x == k or x == j else "white" for x in range(len(data))])
+            time.sleep(delay)
+
             k += 1
             j += 1
 
