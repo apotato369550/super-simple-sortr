@@ -31,13 +31,13 @@ class TimSort(Algorithms):
                 middle = min(n - 1, left + size - 1)
                 right = min((left + 2 * size - 1), (n - 1))
 
+                # check the params here
                 self.merge(data, left, middle, right, drawData, delay)
 
             size = 2 * size
 
         print data
         drawData(data, ["green" for x in range(len(data))])
-        time.sleep(delay)
         # it stops at the end for some reason???
         # test again later??
 
@@ -61,41 +61,36 @@ class TimSort(Algorithms):
 
     def merge(self, data, left, middle, right, drawData, delay):
         length_1, length_2 = middle - left + 1, right - middle
-        left, right = [], []
+        left_partition, right_partition = [], []
+        # test this later
         for i in range(0, length_1):
-            left.append(data[left + i])
+            left_partition.append(data[left + i])
         for i in range(0, length_2):
-            right.append(data[middle + 1 + i])
+            right_partition.append(data[middle + 1 + i])
 
         i, j, k = 0, 0, left
 
         while i < length_1 and j < length_2:
-            if left[i] <= right[j]:
-                data[k] = left[i]
-                drawData(data, ["red" if x == k or x == i else "white" for x in range(len(data))])
+            if left_partition[i] <= right_partition[j]:
+                data[k] = left_partition[i]
+                drawData(data, ["red" if x == k else "white" for x in range(len(data))])
                 time.sleep(delay)
                 i += 1
             else:
-                data[k] = right[j]
-                drawData(data, ["red" if x == k or x == j else "white" for x in range(len(data))])
+                data[k] = right_partition[j]
+                drawData(data, ["red" if x == k else "white" for x in range(len(data))])
                 time.sleep(delay)
                 j += 1
             k += 1
 
         while i < length_1:
-            data[k] = left[i]
-
-            drawData(data, ["red" if x == k or x == i else "white" for x in range(len(data))])
-            time.sleep(delay)
+            data[k] = left_partition[i]
 
             k += 1
             i += 1
 
         while j < length_2:
-            data[k] = right[j]
-
-            drawData(data, ["red" if x == k or x == j else "white" for x in range(len(data))])
-            time.sleep(delay)
+            data[k] = right_partition[j]
 
             k += 1
             j += 1
