@@ -49,7 +49,6 @@ class HeapSort(Algorithms):
         if largest != i:
             data[i], data[largest] = data[largest], data[i]
 
-            # drawData(data, ["white" for x in range(len(data))])
             drawData(data, self.getColorArray(len(data), largest, left, right, n, i))
             time.sleep(delay)
 

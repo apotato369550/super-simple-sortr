@@ -14,6 +14,7 @@ import HeapSort
 import CocktailShakerSort
 import CombSort
 import TimSort
+import CountSort
 
 class SSS(tk.Tk):
     def __init__(self):
@@ -91,7 +92,7 @@ class SSS(tk.Tk):
         self.algorithm_menu = ttk.Combobox(self.control_panel,
                                 values=["Bubble Sort", "Selection Sort", "Insertion Sort", "ShellSort",
                                         "QuickSort", "Merge Sort", "Heap Sort", "Cocktail Shaker Sort",
-                                        "Comb Sort", "TimSort"],
+                                        "Comb Sort", "TimSort", "Counting Sort"],
                                 font=("courier", 10, "bold"), textvariable=self.selected_algorithm)
 
         # Grid Algorithm Menu
@@ -160,7 +161,8 @@ class SSS(tk.Tk):
             "Heap Sort": HeapSort.HeapSort,
             "Cocktail Shaker Sort": CocktailShakerSort.CocktailShakerSort,
             "Comb Sort": CombSort.CombSort,
-            "TimSort": TimSort.TimSort
+            "TimSort": TimSort.TimSort,
+            "Counting Sort": CountSort.CountSort
         }
 
         algorithms[algorithm](self.data, delay)

@@ -80,12 +80,6 @@ class QuickSort(Algorithms):
             if is_swapping:
                 if i == border or i == current_index:
                     color_array[i] = "green"
-            # try adding a conditional here?? if finished swapping
-            # compare to original algorithm sorter << do this
-            # keep looking at it
-            # just keep going
-            # Worse case scenario, you'll have to add smth to the function
-            # figure out where the algorithm ends
 
 
             
