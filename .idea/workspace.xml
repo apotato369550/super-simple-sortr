@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e934f563-504e-45ae-b415-30cfdc57722b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BogoSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/BogoSort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,22 +139,22 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="1005" y="298" key="FileChooserDialogImpl/0.0.1920.1036@0.0.1920.1036" timestamp="1614838261888" />
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom" timestamp="1615202679291">
+    <state width="931" height="277" key="GridCell.Tab.0.bottom" timestamp="1615202932255">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1615202679291" />
-    <state width="1899" height="277" key="GridCell.Tab.0.center" timestamp="1615202679291">
+    <state width="931" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1615202932255" />
+    <state width="931" height="277" key="GridCell.Tab.0.center" timestamp="1615202932255">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.center/0.0.1920.1036@0.0.1920.1036" timestamp="1615202679291" />
-    <state width="1899" height="277" key="GridCell.Tab.0.left" timestamp="1615202679290">
+    <state width="931" height="277" key="GridCell.Tab.0.center/0.0.1920.1036@0.0.1920.1036" timestamp="1615202932255" />
+    <state width="931" height="277" key="GridCell.Tab.0.left" timestamp="1615202932255">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.left/0.0.1920.1036@0.0.1920.1036" timestamp="1615202679290" />
-    <state width="1899" height="277" key="GridCell.Tab.0.right" timestamp="1615202679291">
+    <state width="931" height="277" key="GridCell.Tab.0.left/0.0.1920.1036@0.0.1920.1036" timestamp="1615202932255" />
+    <state width="931" height="277" key="GridCell.Tab.0.right" timestamp="1615202932255">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.right/0.0.1920.1036@0.0.1920.1036" timestamp="1615202679291" />
+    <state width="931" height="277" key="GridCell.Tab.0.right/0.0.1920.1036@0.0.1920.1036" timestamp="1615202932255" />
     <state width="931" height="339" key="GridCell.Tab.1.bottom" timestamp="1614938922817">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
@@ -175,10 +175,10 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="96" y="96" width="1728" height="844" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1612147175568" />
-    <state x="1151" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1615171639506">
+    <state x="1151" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1615205273190">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="1151" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1615171639506" />
+    <state x="1151" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1615205273190" />
     <state x="623" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1612147133224">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
