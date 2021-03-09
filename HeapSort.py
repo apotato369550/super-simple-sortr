@@ -13,7 +13,6 @@ class HeapSort(Algorithms):
         sorting_thread = threading.Thread(target=self.sort, args=(self.data, self.drawData, self.delay))
         sorting_thread.daemon = True
         sorting_thread.start()
-        # ok all that's left to do is add the drawdata and delay functions
 
         self.mainloop()
 
@@ -23,7 +22,6 @@ class HeapSort(Algorithms):
 
         drawData(data, ["green" for x in range(len(data))])
         time.sleep(delay)
-        # Test this
 
     def algorithm(self, data, drawData, delay):
         n = len(data)
@@ -49,12 +47,12 @@ class HeapSort(Algorithms):
         if largest != i:
             data[i], data[largest] = data[largest], data[i]
 
-            drawData(data, self.getColorArray(len(data), largest, left, right, n, i))
+            drawData(data, self.getColorArray(len(data), n))
             time.sleep(delay)
 
             self.heapify(data, n, largest, drawData, delay)
 
-    def getColorArray(self, length, largest, left, right, n, i):
+    def getColorArray(self, length, n):
         color_array = []
 
         for x in range(length):

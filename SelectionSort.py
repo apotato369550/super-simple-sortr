@@ -16,7 +16,6 @@ class SelectionSort(Algorithms):
         self.mainloop()
 
     def sort(self, data, drawData, delay):
-        # this works now yaasssssss
         for i in range(len(data)):
             minimum_index = i
             for j in range(i + 1, len(data)):

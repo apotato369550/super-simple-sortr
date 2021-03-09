@@ -16,7 +16,6 @@ class BubbleSort(Algorithms):
         self.mainloop()
 
     def sort(self, data, drawData, delay):
-        # this doesn't work
         for _ in range(len(data) - 1):
             for i in range(len(data) - 1):
                 if data[i] > data[i + 1]:

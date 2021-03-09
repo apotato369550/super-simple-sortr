@@ -28,7 +28,7 @@ class CountSort(Algorithms):
         for value in data:
             count[value] += 1
 
-            self.drawData(data, ["yellow" if x == value else "white" for x in range(len(data))])
+            drawData(data, ["yellow" if x == value else "white" for x in range(len(data))])
             time.sleep(delay)
 
         i = 0
@@ -38,8 +38,7 @@ class CountSort(Algorithms):
                 data[i] = a
                 i += 1
 
-                self.drawData(data, ["red" if x == i else "white" for x in range(len(data))])
+                drawData(data, ["red" if x == i else "white" for x in range(len(data))])
                 time.sleep(delay)
 
-        # I should probably test this
 

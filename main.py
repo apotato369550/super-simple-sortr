@@ -66,7 +66,6 @@ class SSS(tk.Tk):
         self.sortr_label.grid(row=2, column=0)
 
         # Scales for sorting speed, data length, min/max data
-        # figure out how to add commands to these mfs
         self.speed_scale = Scale(self.control_panel, from_=0.1, to=2.0, length=160, digits=2, resolution=0.1,
                                  orient=HORIZONTAL, label="Speed/Delay (in seconds)", bg="#f2f2f2", relief="groove",
                                  highlightbackground="#e6e6e6", font=("arial", 8))
@@ -87,7 +86,6 @@ class SSS(tk.Tk):
         self.max_scale.grid(row=2, column=1, columnspan=2, padx=15)
 
         # Algorithm selector
-        # fix this
         self.selected_algorithm = StringVar()
         self.selected_algorithm.set("Bubble Sort")
         self.algorithm_menu = ttk.Combobox(self.control_panel,
@@ -117,7 +115,6 @@ class SSS(tk.Tk):
             self.data.append(random.randrange(minimum_value, maximum_value + 1))
 
     def drawData(self):
-        # figure this out
         self.main_canvas.delete("all")
 
         canvas_width = self.max_width
@@ -127,10 +124,8 @@ class SSS(tk.Tk):
         offset = 20
         spacing = 5
 
-        # figure out how to normalize the data
         normalized_data = self.data / numpy.linalg.norm(self.data)
 
-        # Make the data taller and the text larger and clearer
         for i, height in enumerate(normalized_data):
             x1 = i * x_width + offset + spacing
             y1 = canvas_height - (height * 1.25) * (800 + (len(self.data) + 12))
@@ -169,14 +164,4 @@ class SSS(tk.Tk):
 
         algorithms[algorithm](self.data, delay)
 
-
-
-
-
-
-
-
-
-
-# The image shows when done procedurally, figure out why it won't work in oop
 SSS()

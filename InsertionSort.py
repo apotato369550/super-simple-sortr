@@ -16,7 +16,6 @@ class InsertionSort(Algorithms):
         self.mainloop()
 
     def sort(self, data, drawData, delay):
-        # the yellow line works correctly, but somehow the swap doesn't?
         for i in range (1, len(data)):
             key = data[i]
 
@@ -30,9 +29,10 @@ class InsertionSort(Algorithms):
                 j -= 1
 
             data[j + 1] = key
+
             drawData(data, ["red" if x == j + 1 else "white" for x in range(len(data))])
             time.sleep(delay)
-        self.drawData(data, ["green" for x in range(len(data))])
-        # implement sorting pattern
+
+            drawData(data, ["green" for x in range(len(data))])
 
 

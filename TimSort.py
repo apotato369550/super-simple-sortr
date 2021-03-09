@@ -17,7 +17,6 @@ class TimSort(Algorithms):
         self.mainloop()
 
     def sort(self, data, drawData, delay):
-        # do this
         n = len(data)
         minimum_run = self.minimum_run(n)
 
@@ -31,15 +30,12 @@ class TimSort(Algorithms):
                 middle = min(n - 1, left + size - 1)
                 right = min((left + 2 * size - 1), (n - 1))
 
-                # check the params here
                 self.merge(data, left, middle, right, drawData, delay)
 
             size = 2 * size
 
         print data
         drawData(data, ["green" for x in range(len(data))])
-        # it stops at the end for some reason???
-        # test again later??
 
 
     def minimum_run(self, length):
@@ -62,7 +58,7 @@ class TimSort(Algorithms):
     def merge(self, data, left, middle, right, drawData, delay):
         length_1, length_2 = middle - left + 1, right - middle
         left_partition, right_partition = [], []
-        # test this later
+
         for i in range(0, length_1):
             left_partition.append(data[left + i])
         for i in range(0, length_2):
@@ -95,4 +91,3 @@ class TimSort(Algorithms):
             k += 1
             j += 1
 
-    # work on this

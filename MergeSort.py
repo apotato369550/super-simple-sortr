@@ -13,7 +13,6 @@ class MergeSort(Algorithms):
         sorting_thread = threading.Thread(target=self.sort, args=(self.data, self.drawData, self.delay))
         sorting_thread.daemon = True
         sorting_thread.start()
-        # ok all that's left to do is add the drawdata and delay functions
 
         self.mainloop()
 
@@ -59,9 +58,6 @@ class MergeSort(Algorithms):
 
             drawData(data, ["green" if x >= left and x <= right else "white" for x in range(len(data))])
             time.sleep(delay)
-        # it pulls down the values of the last numbers for some reason
-        # there is something wrong with the merge algorithm
-        # Scan every line
 
     def getColorArray(self, length, left, middle, right):
         color_array = []

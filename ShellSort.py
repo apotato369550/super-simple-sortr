@@ -19,7 +19,6 @@ class ShellSort(Algorithms):
     def sort(self, data, drawData, delay):
         n = len(data)
         gap = n // 2
-        # polish this
         while gap > 0:
             for i in range(gap, n):
                 temp = data[i]
@@ -41,5 +40,3 @@ class ShellSort(Algorithms):
 
             gap //= 2
         drawData(data, ["green" for x in range(len(data))])
-
-        # bucket sort, timsort, count sort

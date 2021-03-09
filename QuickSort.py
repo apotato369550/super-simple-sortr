@@ -9,12 +9,9 @@ class QuickSort(Algorithms):
         self.data = data
         self.delay = delay
 
-        # create sorting thread
-        # why the fuck is this not working VVV???
         sorting_thread = threading.Thread(target=self.sort, args=(self.data, 0, len(data) - 1, self.drawData, delay, True))
         sorting_thread.daemon = True
         sorting_thread.start()
-
 
         self.mainloop()
 
@@ -45,7 +42,6 @@ class QuickSort(Algorithms):
         return border
 
     def sort(self, data, head, tail, drawData, delay, main):
-        # figure out how to only display green in the main loop
         if head < tail:
             partition_index = self.partition(data, head, tail, drawData, delay)
 
@@ -57,9 +53,6 @@ class QuickSort(Algorithms):
 
         if main:
             drawData(data, ["green" for x in range(len(data))])
-
-        # Fixed the yellow part,
-        # The only problem is that after it finishes sorting, it only draws 2 bars green
 
     def getColorArray(self, data_length, head, tail, border, current_index, is_swapping=False):
         color_array = []
@@ -81,8 +74,4 @@ class QuickSort(Algorithms):
                 if i == border or i == current_index:
                     color_array[i] = "green"
 
-
-            
-
         return color_array
-        #continue this function

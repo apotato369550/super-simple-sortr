@@ -31,7 +31,6 @@ class CombSort(Algorithms):
                     time.sleep(delay)
 
                     swapped = True
-        # this works properly as it should
         drawData(data, ["green" for x in range(len(data))])
         time.sleep(delay)
 
@@ -41,5 +40,4 @@ class CombSort(Algorithms):
             return 1
         return gap
 
-    # test this out later
 

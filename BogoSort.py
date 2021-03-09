@@ -18,19 +18,19 @@ class BogoSort(Algorithms):
 
     def sort(self, data, drawData, delay):
         while self.is_sorted(data) == False:
-            self.shuffle(data)
+            self.shuffle(data, drawData, delay)
 
-        self.drawData(self.data, ["green" for x in range(len(data))])
-        time.sleep(self.delay)
+        drawData(self.data, ["green" for x in range(len(data))])
+        time.sleep(delay)
 
-    def shuffle(self, data):
+    def shuffle(self, data, drawData, delay):
         length = len(data)
         for i in range (0, length):
             rand = random.randint(0, length - 1)
             data[i], data[rand] = data[rand], data[i]
 
-            self.drawData(self.data, ["red" if x == i or x == rand else "white" for x in range(len(data))])
-            time.sleep(self.delay)
+            drawData(data, ["red" if x == i or x == rand else "white" for x in range(len(data))])
+            time.sleep(delay)
 
     def is_sorted(self, data):
         length = len(data)

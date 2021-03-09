@@ -2,7 +2,6 @@ from Algorithims import Algorithms
 import time
 import threading
 
-# continue shit here
 class CocktailShakerSort(Algorithms):
     def __init__(self, data, delay):
         Algorithms.__init__(self)
@@ -17,7 +16,6 @@ class CocktailShakerSort(Algorithms):
         self.mainloop()
 
     def sort(self, data, drawData, delay):
-        # this did not work. figure out what went wrong
         length = len(data)
         swapped = True
         start = 0
