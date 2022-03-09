@@ -1,5 +1,5 @@
-import Tkinter as tk
-from Tkinter import *
+import tkinter as tk
+from tkinter import *
 import numpy
 
 
@@ -23,7 +23,7 @@ class Algorithms(tk.Toplevel):
         try:
             self.main_canvas.delete("all")
         except:
-            print "..."
+            print("...")
 
         canvas_width = self.max_width
         canvas_height = self.max_height
