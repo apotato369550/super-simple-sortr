@@ -34,7 +34,7 @@ class TimSort(Algorithms):
 
             size = 2 * size
 
-        print data
+        print(data)
         drawData(data, ["green" for x in range(len(data))])
 
 

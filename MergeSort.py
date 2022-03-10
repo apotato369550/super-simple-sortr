@@ -19,7 +19,7 @@ class MergeSort(Algorithms):
     def sort(self, data, drawData, delay):
         self.algorithm(data, 0, len(data) - 1, drawData, delay)
         drawData(data, ["green" for x in range(len(data))])
-        print data
+        print(data)
 
     def algorithm(self, data, left, right, drawData, delay):
         if left < right:

@@ -1,7 +1,7 @@
-import Tkinter as tk
-from Tkinter import *
+import tkinter as tk
+from tkinter import *
 from PIL import ImageTk, Image
-import ttk
+from tkinter import ttk
 import random
 import numpy
 import BubbleSort
