@@ -19,4 +19,4 @@ This application houses 12 different sorting algorithms to be visualized namely:
 
 To run the application, just clone the different files and run the "main.py"
 
-This program was made in Python 2.7
+This program was made in Python 2.7, but has been updated to work w/ Python 3.x. Happy hunting!
